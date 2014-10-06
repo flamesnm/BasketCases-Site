@@ -1,0 +1,48 @@
+Version 1.3.2
+===========
+Fixed: Several CSS modifications for better display.
+Fixed: Google map control panel display.
+Fixed: Caption code to allow users to change the default image title to their own caption for the first image.
+Fixed: No-image dimensions on Featured slider.
+Fixed: Media settings in the admin backend.
+Fixed: Added extra translation text to the .pot file to include additional new wording.
+Fixed: Position of sold ribbon on single ad page when uploaded image is not square and in IE11.
+Fixed: Removed the word STEP from the add new form progress images, to avoid translation issues.
+Moved: Google fonts to the wrapper.php to avoid @import in the style.css file.
+
+Added: Sold and Sale Pending ribbons to the featured slider (makes sense to right).
+Added: Featured slider to display featured ads which are relevant to the category being viewed on the category pages.
+Added: Back button on single ad and no ads found pages, which will take user back to the last page they came from.
+Added: Option to include Responsive Video Embedding for YouTube and Vimeo (see README.txt for instructions).
+Added: Price Negotiable option (see README.txt for instructions).
+Added: Option to login or register on the same page.
+Added: Preloader graphic to image uploads, so users can gauge upload progress.
+Added: "Thank you for your order" message to the order summary page.
+Added: Moved ad images to appear before item details on the single ad page.
+Added: Redirection to a "Thank you for your email enquiry" page (see README.txt for instructions).
+Added: Further style compatibility with AFCP plugin.
+
+
+
+Version 1.3.1
+===========
+Fixed: Removal of testing menu.js script which caused slow page load.
+Fixed: Related ads call up code adjustment on single ad page.
+Fixed: Adjustment to Dropdown style on Profile page.
+Fixed: Previous button on featured slider was not working due to it being hidden behind the slider container.
+Fixed: Turned some of the generic icons into sprites to aide with faster download.
+Fixed: Added translation text to the .pot file to include the additional new wording eg: "email to a friend".
+
+Added: Previous and Next links within the same category on the single ad page.
+Added: Made the Purchase a Membership Package more prominent in users dashboard and profile pages.
+Added: Images to RSS feeds in Firefox.
+Added: Auto-Fill Data into sidebar Contact Form
+Added: Style compatibility with CP Rate plugin
+Added: Style compatibility with SM Sticky Featured Widget
+Added: Style compatibility with Contact Form 7 plugin
+
+
+
+Version 1.3
+===========
+-Initial release

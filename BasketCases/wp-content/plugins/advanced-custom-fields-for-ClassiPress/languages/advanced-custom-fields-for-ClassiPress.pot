@@ -1,0 +1,1687 @@
+# Copyright (C) 2013 Advanced Custom Fields for ClassiPress
+# This file is distributed under the same license as the Advanced Custom Fields for ClassiPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Custom Fields for ClassiPress 2.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields-for-"
+"ClassiPress\n"
+"POT-Creation-Date: 2013-05-27 17:11:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-05-27 22:31+0500\n"
+"Last-Translator: Artem Frolov <forester@codedforest.com>\n"
+"Language-Team: codedForest <forester@codedforest.com>\n"
+"Language: en\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin/class-dna-adfields-tab.php:9 admin/class-dna-profile-tab.php:10
+msgid "Name"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:12
+msgid "The \"Meta Name\" of the ClassiPress ad field."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:15 admin/class-dna-profile-tab.php:67
+msgid "Title"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:18 admin/class-dna-profile-tab.php:70
+msgid "Field title."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:21 admin/class-dna-profile-tab.php:17
+msgid "Field Type"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:24 admin/class-dna-profile-tab.php:20
+msgid ""
+"Type of the field. While there are only the following types: text_box, drop-"
+"down, checkbox, radio, text area.<br /> Default value: text_box."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:27 admin/class-dna-profile-tab.php:29
+msgid "Default Value"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:30
+msgid ""
+"This is the default value for the form fields. <br /><strong>If you want to "
+"inherit the value of some field profile into ClassiPress field - enter  name "
+"of the field profile.</strong> <br /> The user can change this value or "
+"remain unchanged. <br />If the type field contains a list of values, the "
+"default value should be in this list."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:33 admin/class-dna-help-tab.php:269
+#: admin/class-dna-profile-tab.php:36
+msgid "Format Of Values"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:36 admin/class-dna-help-tab.php:255
+msgid ""
+"Formats and limitations will allow you to get a more ordered information "
+"from the user."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:36 admin/class-dna-help-tab.php:255
+msgid ""
+"You can set the format for email or url, or number, or simply required etc. "
+"<br />See detailed description of formats and limitations in the Help topic "
+"\"%s\"."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:36 admin/class-dna-adfields-tab.php:42
+#: admin/class-dna-adfields-tab.php:120 admin/class-dna-help-tab.php:37
+#: admin/class-dna-help-tab.php:225 admin/class-dna-help-tab.php:255
+#: admin/class-dna-profile-tab.php:45 admin/class-dna-profile-tab.php:155
+msgid "Formats & Limitations"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:39 admin/class-dna-help-tab.php:274
+#: admin/class-dna-profile-tab.php:42
+msgid "Limitations Of Values"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:42 admin/class-dna-profile-tab.php:45
+msgid ""
+"Restricts user data input. You can set limits on the number of characters, "
+"words, collocations, and also limits on numeric values. <br />There are 3 "
+"types of limitations: minimum, maximum and range.<br /> The value of the "
+"limitations must be entered in the field \"%s\". <br />Read detailed "
+"description of formats and limitations in the Help topic \"%s\"."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:42 admin/class-dna-adfields-tab.php:45
+#: admin/class-dna-adfields-tab.php:48 admin/class-dna-help-tab.php:274
+#: admin/class-dna-profile-tab.php:45 admin/class-dna-profile-tab.php:48
+#: admin/class-dna-profile-tab.php:51
+msgid "Limitations Attributes"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:48 admin/class-dna-profile-tab.php:51
+msgid ""
+"Methods of limiting take 1 or 2 parameters, you must specify in this field. "
+"<br />For example, you chose limitation \"rangeWords\" - this means that the "
+"user must enter a few words in a certain range. <br />Just write the numbers "
+"separated by comma in the \"%s\" (for example: 2,10)."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:51 admin/class-dna-profile-tab.php:54
+msgid "Text Transform"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:54 admin/class-dna-profile-tab.php:57
+msgid ""
+"As well as the CSS <strong><em>text-transform</em></strong> property "
+"controls the capitalization of text."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:55 admin/class-dna-profile-tab.php:58
+msgid "But here capitalization occurs before user's data saves in database."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:56 admin/class-dna-profile-tab.php:59
+msgid "You can select one of 4 options:"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:57 admin/class-dna-profile-tab.php:60
+msgid "The text renders as it is. This is default"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:58 admin/class-dna-profile-tab.php:61
+msgid ""
+"Transforms The First Character Of Each Word To Uppercase, All Others Letters "
+"To Lowercase."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:59 admin/class-dna-profile-tab.php:62
+msgid "TRANSFORMS ALL CHARACTERS TO UPPERCASE."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:60 admin/class-dna-profile-tab.php:63
+msgid "transforms all characters to lowercase."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:63
+msgid "New ad"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:66
+msgid "Check to display this field in the new ad page."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:66 admin/class-dna-adfields-tab.php:72
+#: admin/class-dna-adfields-tab.php:78
+msgid ""
+"By default is on, so that you could control the display of fields after "
+"activating the plugin."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:69
+msgid "Edit ad"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:72
+msgid "Check to display this field in the edit ad page."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:75
+msgid "Single ad list"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:78
+msgid "Check to display this field in the ad single page."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:81
+msgid "Single ad content"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:84
+msgid ""
+"Check to display this field in the ad single page in separated content area."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:84
+msgid "By default is off."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:87 admin/class-dna-profile-tab.php:128
+msgid "Loop ad top"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:90 admin/class-dna-profile-tab.php:131
+msgid "Check to display this field in the ads loop before the description."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:90 admin/class-dna-adfields-tab.php:96
+#: admin/class-dna-profile-tab.php:83 admin/class-dna-profile-tab.php:89
+#: admin/class-dna-profile-tab.php:95 admin/class-dna-profile-tab.php:101
+#: admin/class-dna-profile-tab.php:107 admin/class-dna-profile-tab.php:113
+#: admin/class-dna-profile-tab.php:119 admin/class-dna-profile-tab.php:125
+#: admin/class-dna-profile-tab.php:131 admin/class-dna-profile-tab.php:137
+msgid ""
+"By default is off, so that you could control the display of fields after "
+"activating the plugin."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:93 admin/class-dna-profile-tab.php:134
+msgid "Loop ad bottom"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:96 admin/class-dna-profile-tab.php:137
+msgid "Check to display this field in the ads loop after the description."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:99
+msgid "Featured field"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:102
+msgid ""
+"If you set this property, then this field will display only on Featured Ads."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:105 admin/class-dna-profile-tab.php:140
+msgid "For Logged-In"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:108 admin/class-dna-profile-tab.php:143
+msgid ""
+"If you set this property, then this field will display only for logged-in "
+"users."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:111 admin/class-dna-profile-tab.php:146
+msgid "Private field"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:114 admin/class-dna-profile-tab.php:149
+msgid ""
+"If you set this property, then this field will see only the author, and "
+"administrators. Ordinary visitors and search engines will not see this field."
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:119 admin/class-dna-help-tab.php:225
+#: admin/class-dna-profile-tab.php:154
+msgid "Main Properties"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:121 admin/class-dna-help-tab.php:225
+#: admin/class-dna-profile-tab.php:157
+msgid "Display Options"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:122 admin/class-dna-profile-tab.php:158
+msgid "Conditional Display Options"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:172 admin/class-dna-help-tab.php:227
+#: admin/class-dna-profile-tab.php:208
+msgid "Add field"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:196 admin/class-dna-profile-tab.php:190
+#: admin/class-dna-profile-tab.php:201
+msgid "Delete"
+msgstr ""
+
+#: admin/class-dna-adfields-tab.php:224 admin/class-dna-datepicker-tab.php:280
+msgid "-- Default --"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:82
+msgid "Real time preview"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:84
+msgid ""
+"Click on the text box to see the Datepicker with your settings in real time. "
+"<br />As such, the Datepicker is displayed on the live page, after saving "
+"the settings. <br />Try to manually enter the date in the wrong format and "
+"you will see how the validation works."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:87
+msgid "Date format"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:89
+msgid ""
+"You can select a predefined date format for your locale, or you can use "
+"these ready-made formats.<br />You can also specify your own date format "
+"(Custom option)."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:92
+msgid "Format Input"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:94
+msgid "The Custom date format input."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:97
+msgid "Localizations"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:99
+msgid ""
+"Localizations of jQuery UI Datepicker. <br />Each localization contains not "
+"only language translation, but also a set of ready settings for each "
+"represented region."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:102
+msgid "Animations"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:104
+msgid "Set the name of the animation used to show/hide the datepicker."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:107
+msgid "Display multiple month"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:109
+msgid ""
+"Set how many months to show at once. The value can be a straight integer."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:112
+msgid "Display button bar"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:114
+msgid "Whether to show the button panel."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:117
+msgid "Display month and year menus"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:119
+msgid ""
+"Allows you to change the year and month by selecting from a drop-down list."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:122
+msgid "Max date"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:124
+#: admin/class-dna-datepicker-tab.php:137
+#: admin/class-dna-datepicker-tab.php:150
+msgid "Type"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:124
+#: admin/class-dna-datepicker-tab.php:137
+msgid "Date or Number or String"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:125
+#: admin/class-dna-datepicker-tab.php:138
+#: admin/class-dna-datepicker-tab.php:151 admin/class-dna-profile-tab.php:60
+#: admin/class-dna-profile-tab.php:232
+msgid "Default"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:126
+msgid ""
+"The maximum selectable date. When set to <code>null</code>, there is no "
+"maximum."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:127
+#: admin/class-dna-datepicker-tab.php:140
+msgid "Multiple types supported:"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:129
+#: admin/class-dna-datepicker-tab.php:142
+msgid "Date"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:129
+msgid "A date object containing the maximum date."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:130
+#: admin/class-dna-datepicker-tab.php:143
+msgid "Number"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:130
+#: admin/class-dna-datepicker-tab.php:143
+msgid ""
+"A number of days from today. For example <code>2</code> represents two days "
+"from today and <code>-1</code> represents yesterday."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:131
+#: admin/class-dna-datepicker-tab.php:144
+#: admin/class-dna-datepicker-tab.php:150
+msgid "String"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:131
+#: admin/class-dna-datepicker-tab.php:144
+msgid ""
+"A string in the format defined by the <code>dateFormat</code> option, or a "
+"relative date. Relative dates must contain value and period pairs; valid "
+"periods are <code>\"y\"</code> for years, <code>\"m\"</code> for months, "
+"<code>\"w\"</code> for weeks, and <code>\"d\"</code> for days. For example, "
+"<code>\"+1m +7d\"</code> represents one month and seven days from today."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:135
+msgid "Min date"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:139
+msgid ""
+"The minimum selectable date. When set to <code>null</code>, there is no "
+"minimum."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:142
+msgid "A date object containing the minimum date."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:148
+msgid "Year Range"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:152
+msgid ""
+"The range of years displayed in the year drop-down: either relative to "
+"today's year (<code>\"-nn:+nn\"</code>), relative to the currently selected "
+"year (<code>\"c-nn:c+nn\"</code>), absolute (<code>\"nnnn:nnnn\"</code>), or "
+"combinations of these formats (<code>\"nnnn:-nn\"</code>). Note that this "
+"option only affects what appears in the drop-down, to restrict which dates "
+"may be selected use the <code>minDate</code> and/or <code>maxDate</code> "
+"options."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:155
+msgid "Display dates in other month"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:157
+msgid ""
+"When true days in other months shown before or after the current month are "
+"selectable."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:160
+msgid "Display icon trigger"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:162
+msgid ""
+"Set to true to place an image after the field to use as the trigger without "
+"it appearing on a button."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:183
+msgid "jQuery UI Datepicker Settings"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:212
+msgid "Documentation on date formatting in jQuery UI."
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:236
+msgid "Show (default)"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:237
+msgid "Slide down"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:238
+msgid "Fade in"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:239 framework/acf/acf-helpers.php:160
+#: includes/deprecated/deprecated.php:249
+msgid "None"
+msgstr ""
+
+#: admin/class-dna-datepicker-tab.php:263
+msgid "jQuery UI Datepicker API Documentation"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:13
+msgid "Browse"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:17
+msgid "Installation/Update"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:21
+msgid "Localization"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:25 admin/dna-config.php:42
+msgid "Profile Fields"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:29 admin/dna-config.php:46
+msgid "Ad Fields"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:33
+msgid "Error Messages"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:41 admin/dna-config.php:54
+#: framework/acf/class-acf-validator.php:212
+msgid "Date Picker Settings"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:45 admin/class-dna-move-tab.php:41
+#: admin/dna-config.php:58
+msgid "Export/Import/Clear Settings"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:49 admin/class-dna-help-tab.php:184
+msgid "ACF API Docs"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:53
+msgid "Video Tutorials"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:57
+msgid "Contacts"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:105
+msgid "Property"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:106 admin/class-dna-help-tab.php:295
+#: admin/class-dna-profile-tab.php:73
+msgid "Description"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:126
+msgid ""
+"The Advanced Custom Fields for ClassiPress(ACFCP) plugin is a powerful tool "
+"for extending the ClassiPress theme."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:127
+msgid ""
+"It allows you to add and completely control extra Profile fields and custom "
+"Ad fields. Also ACFCP Plugin allows the interaction of custom profile fields "
+"with custom ad fields and vice versa."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:128
+msgid "ACF adds many of the most requested features for ClassiPress:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:130
+msgid "Extra profile fields"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:131
+msgid "Different types of profile fields"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:132
+msgid ""
+"Formats of ad and profile fields (including Date Field with fully "
+"customizable Datepicker and validation of input values)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:133
+msgid ""
+"Transform of ad and profile fields values (Capitalize, UPPERCASE, lowercase)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:134
+msgid ""
+"Private fields (private allows only the author and administrators to see an "
+"ad or profile field while hiding it from other visitors and search engines)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:135
+msgid "Display fields only for logged-in users"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:136
+msgid "Limit the number of input symbols, words"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:137
+msgid ""
+"Field formats validation and restrictions. <br />Double-checking of Ad "
+"fileds and Profile fields during registration and editing. <br />Checking "
+"occurs on the client side, and then on the server side. <br />This provides "
+"advanced protection for your site from uninvited guests. <br />Validation of "
+"fields on the client side allows the user to obtain accurate and structured "
+"information on the ad"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:138
+msgid ""
+"Custom validation messages (edit messages in your language and help your "
+"users fill forms properly)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:139
+msgid "Default values for all fields"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:140
+msgid "Inherit values of the profile field in the ad field"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:141
+msgid "Control output fields on the various pages and forms:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:143
+msgid "Registration user form"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:144 admin/class-dna-profile-tab.php:86
+msgid "Edit profile form"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:145 admin/class-dna-profile-tab.php:98
+msgid "Author’s page"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:146 admin/class-dna-profile-tab.php:104
+msgid "User sidebar"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:147
+msgid "Single ad page (usual field list)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:148
+msgid "Single ad page separated area (style customizable block)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:149
+msgid "Poster tab in Ad sidebar"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:150
+msgid "Ad Loops after title"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:151
+msgid "Ad Loop after description"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:152
+msgid "New ad form"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:153
+msgid "Edit ad form"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:156
+msgid "Ability to add custom CSS styles to fields output"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:157
+msgid ""
+"Ability to add the patch CSS files to be compatible with the style of your "
+"child theme"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:158
+msgid ""
+"Plugin settings can be exported to INI file, or imported from another file"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:159
+msgid "Compatible with WordPress Multisite."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:160
+msgid "Has own documented API"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:162
+msgid ""
+"With this plugin you can easy create the most popular profile form fields "
+"such as:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:164
+msgid ""
+"“First Name” and “Last Name” – core WordPress profile fields, which you can "
+"add to registration form"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:165
+msgid "“Accept Terms of Service” – checkbox for your registration form"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:166
+msgid ""
+"“User Tax ID” – Private profile field, which will see only Administrator "
+"(You) and the user (ad owner)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:167
+msgid ""
+"“Country” / “State” / “City” / “Phone number” – Location fields, which can "
+"automatically fill in “Add new ad” form. Members who submit a lot of ads on "
+"your site – will be happy."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:168
+msgid "“Date field” - Date of any format and location"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:170
+msgid "And many others …"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:171
+msgid "Add any formats to the ad and profile form fields:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:172
+msgid ""
+"If you have specific ad or profile fields such as: “Phone number” or "
+"“ZipCode”, which required specific formats of values – select neccessary "
+"format from the list of proposed (there are number, digits, phone, email, "
+"url, alfanumeric, etc…)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:173
+msgid "Limit the input data from the user through forms:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:174
+msgid ""
+"You can add limits to fill numbers, lenght, words, words sets – by criteria "
+"min / max / range"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:175
+msgid "Using ACF API you can add:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:177
+msgid "New Visibility options"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:178
+msgid "New Value modifiers"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:179
+msgid "New Value formats and restrictions"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:180
+msgid "New Plugin options to provide control of new created features"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:182
+msgid ""
+"The plugin contains a very detailed help section for each property and "
+"method. Tooltips will assist you in customizing the plugin."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:183
+msgid "Help Section"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:183
+msgid "is duplicated on"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:183
+msgid "Support forum"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:183
+msgid "so You can read all about plugin before purchase!!!"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:184
+msgid ""
+"published on the Support Forum and provides detailed documentation with real "
+"life examples."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:185
+msgid ""
+"There are plans to update the plugin for each new version of the ClassiPress "
+"and adding more new features and enhancements over time."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:186
+msgid "The Plugin interface"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:187
+msgid ""
+"Plugin page can be accessed from the main administration menu ClassiPress-"
+"&gt; %s."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:187 admin/class-dna-help-tab.php:357
+#: admin/dna-config.php:30
+msgid "ACF Options"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:188
+msgid "Plugin settings is divided into tabs with tables of settings:"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:196 admin/class-dna-help-tab.php:229
+msgid "To save the results click \"%s\"."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:196 admin/class-dna-help-tab.php:229
+#: framework/dna/dna.php:348
+msgid "Save Changes"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:197
+msgid "Detailed information about each tab read the specific Help Page."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:203
+msgid ""
+"The Plugin developed for a specific version of ClassiPress! After each "
+"update ClassiPress Plugin source code review. This may take some time."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:204
+msgid ""
+"Be prepared that if you upgrade ClassiPress before the release of upgrade "
+"Plugin – the Plugin turns off (for not to cause potential errors). The "
+"Plugin resume work on the condition that his version is compatible with the "
+"version of ClassiPress."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:205
+msgid "Manual installation"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:207
+msgid "Download the Plugin zip file advanced-custom-fields-for-classipress.zip"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:208
+msgid "Open WP Admin dashboard -&gt; Plugins -&gt; Add new -&gt; Upload"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:209
+msgid "Upload and activate the Plugin from Plugins page."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:210
+msgid ""
+"Find the menu “ClassiPress” on the WordPress administration page. Select the "
+"lower point “ACF options” and proceed to configure the Plugin."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:213
+msgid "Manual update"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:215
+msgid "Export ACF plugin settings to the INI file (just in case)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:216
+msgid "Deactivate and Delete installed ACF plugin from plugins page"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:217
+msgid "Repeat all steps from manual install (see above)"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:224
+msgid ""
+"Configure additional profile fields are presented in tabular form. Where "
+"rows - additional profile fields, and columns - the properties of these "
+"fields. Since the properties of the fields were many, I had to divide them "
+"into several groups."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:225
+msgid ""
+"So you can see four groups of the properties of the field profile: \"%s\", "
+"\"%s\", \"%s\", \"%s\"."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:225 admin/class-dna-profile-tab.php:156
+msgid "Labels & Descriptions"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:227
+msgid ""
+"If you want to add a new row of the field - click \"%s\" button at the "
+"bottom of the table."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:228
+msgid "To remove an existing field, click the X in the right end of the line."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:231
+msgid ""
+"Below you will find descriptions of all additional properties of the profile "
+"field."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:237
+msgid "Tab \"%s\" allows you to edit the default validation messages."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:237 admin/dna-config.php:50
+msgid "Validation Error Messages"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:238
+msgid ""
+"Most of the messages was inherited from the  <a target=\"_new\" href="
+"\"http://bassistance.de/jquery-plugins/jquery-plugin-validation/\">jQuery."
+"Validation</a> plugin. Others I have written myself. <br />These messages "
+"can be translated to your language is not correctly, so I gave you an "
+"opportunity to change them."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:240
+msgid ""
+"Pay attention to the messages with the characters \"<strong>{0}</strong>\"."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:241
+msgid ""
+"I recommend not to change them, as it will be replaced in the message "
+"attribute of the method validation."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:248
+msgid ""
+"Configuring ad fields represented as a table, as well as configuring profile "
+"fields. <br />Where rows - ad fields, and columns - the properties of these "
+"fields."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:249
+msgid ""
+"Below you will find descriptions of all additional properties of the ad "
+"fields."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:257
+msgid "How does it work?"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:258
+msgid "So, what need to do to get from users only necessary information?"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:260
+msgid "Set the format of the field (such as numeric, text, date, etc.)."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:261
+msgid ""
+"Limit data entry to certain criteria (for example, set the maximum number of "
+"characters, words, or range of numbers, etc.)."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:262
+msgid "Mark the required fields."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:263
+msgid ""
+"And most importantly: Have the ability to programmatically check on all of "
+"these criteria is that user enters! And if necessary, tell user what he did "
+"wrong."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:265
+msgid "ACF plugin functional can solve all of these tasks."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:266
+msgid "So, all in order."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:268
+msgid "Formats"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:269
+msgid "You can choose the format of the field using the drop-down list \"%s\"."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:270
+msgid ""
+"This can be: <br />The default format (or nothing or anything, except the "
+"bad characters and tags); <br />Any of the suggested format (the user can "
+"enter a value in the selected format, or leave blank); <br />Required field "
+"(requires the user to enter anything, no matter what)."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:272
+msgid "Limitations"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:273
+msgid "You can limit entered words, symbols, collocations or numbers."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:274
+msgid ""
+"You can choose the limitation of the field using the drop-down list \"%s\", "
+"setting out the attribute of the limitation in text field \"%s\"."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:275
+msgid ""
+"Methods of limiting are divided into three types: <br />Maximum - Sets the "
+"upper limit of the input data. The user can enter data is not above the "
+"specified limits, including leave blank; <br />Minimum - Sets the lower "
+"limit of the input data. The user can enter data is not below the specified "
+"limits; <br />Range - Sets the range, ie upper and lower limits (safest "
+"option)."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:277
+msgid "Appointment required for input fields"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:278
+msgid ""
+"Available in 2 variants: <br /> If you choose a format of the field (but not "
+"\"required\") - you can specify input limitations such as \"rangelength\" "
+"with attributes \"1,100\". Then user must enter at least one character or "
+"more but less than 100. <br />If you do not have special format for the "
+"field, but this field is required, then select the format \"required\" or, "
+"as in the previous case, use restrictions."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:280
+msgid "Validation"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:281
+msgid ""
+"Each format or limitation is the specific method of verification fields. If "
+"the user enters data in the wrong format, then pressing the Save button - "
+"displays a message about incorrect entry. In this case sending data to the "
+"server will not happen."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:282
+msgid ""
+"Verification of fields is performed on the client side and server side. <br /"
+">On the client side validation works in real time and the user immediately "
+"sees what he has done wrong. <br />This feature is provided by plug-jQuery."
+"Validation. This is very handy, but it has some drawbacks. <br />For "
+"example, if a user will prevent execution of JavaScript in their browser, "
+"the client-side validation does not happen at all. <br />In order to avoid "
+"this vulnerability and maximally protect the registration page and edit "
+"profile page, I added to the plugin the same verification methods, but "
+"running on the server side. <br />Therefore, if the user disables "
+"javascript, validation will still be done (you can try)."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:283
+msgid ""
+"After validation, in any case, all data is cleaned on the server side before "
+"saving them to the site database."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:286
+msgid ""
+"Below is a list of all methods of data validation. <br />This list is open, "
+"you can send a request to the method that you want and I'll add it (if it's "
+"real :))."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:287
+msgid ""
+"I recommend to read carefully the description of the methods before adding "
+"them to the fields of forms."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:293
+msgid "Method name"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:315
+msgid ""
+"This section will help you manage your configuration settings of this Plugin."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:321
+msgid ""
+"The <a target=\"_new\" href=\"%s\">jQuery UI Datepicker</a> is a highly "
+"configurable plugin that adds datepicker functionality to your ad and "
+"profile fields. <br />You can customize the date format and language, "
+"restrict the selectable date ranges and add in buttons and other navigation "
+"options easily."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:322
+msgid ""
+"All you need to do - is to set up Datepicker according to your needs and "
+"select format \"dateCustom\" for desired profile field, or ad field."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:323
+msgid "Below is a list of customizable properties of Datepicker."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:329
+msgid "Hello!"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:330
+msgid "My name is Artem Frolov and I am developer of this plugin."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:331
+msgid ""
+"You can find me on the AppThemes forum under the nickname - <a target=\"_new"
+"\" href=\"%s\">dikiyforester</a>."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:332
+msgid "Welcome to <a target=\"_new\" href=\"%s\">my circles on Google+</a>."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:333
+msgid ""
+"If you have any questions or suggestions on the use of plugin, or you find "
+"an error, write me on the <a target=\"_new\" href=\"%s\">Support Forum</a>."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:339
+msgid ""
+"As you already know, ACF Plugin is not easy to set up, in spite of the fact "
+"that I was trying to make it more simple."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:340
+msgid "I'm starting to record video tutorials on working with plug-in."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:341
+msgid ""
+"Find all tutorials you can on this page <a target=\"_new\" href=\"%s\">Video "
+"Tuts for installing and using ACFCP Plugin</a>."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:342
+msgid "Here I will show examples of setting plug and major features."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:348
+msgid ""
+"Starting with plugin version 2.3, was implemented internationalization "
+"system of plugin settings content."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:349
+msgid ""
+"Language Packs and Portable Object Template are located in the folder <code>"
+"%s</code>"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:350
+msgid "Installing Language Packs"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:352
+msgid "Open folder <code>%s</code>"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:353
+msgid ""
+"Find Pack file for your language with name <code>advanced-custom-fields-for-"
+"ClassiPress-[LANGUAGE CODE]_[COUNTRY CODE].mo</code>"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:354
+msgid ""
+"See the complete list of <a target=\"_new\" href=\"%s\">language codes</a> "
+"and <a target=\"_new\" href=\"%s\">country codes</a> to find your exact "
+"locale."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:356
+msgid "Copy this file to WordPress common localization folder <code>%s</code>"
+msgstr ""
+
+#: admin/class-dna-help-tab.php:357
+msgid "Open \"%s\" page and start to work with plugin."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:359
+msgid ""
+"Note: If a language pack doesn’t exist for your language, you’ll have to "
+"create it yourself. AppThemes \"<a target=\"_new\" href=\"%s\">How to "
+"Translate a WordPress Theme</a>\" tutorial will explain how to do it."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:360
+msgid ""
+"If you have translated plugin yourself, you can contact me and send the "
+"language pack. I’ll include your files in the plugin package for further "
+"uses."
+msgstr ""
+
+#: admin/class-dna-help-tab.php:365
+msgid ""
+"Detailed ACF API Documentation you can find on Support Forum in <a target="
+"\"_new\" title=\"Help Section\" href=\"%s\">this</a> thread."
+msgstr ""
+
+#: admin/class-dna-move-tab.php:8
+msgid "Restore all ACFCP settings to default"
+msgstr ""
+
+#: admin/class-dna-move-tab.php:9
+msgid "For restore all settings to default, set this field and Submit form."
+msgstr ""
+
+#: admin/class-dna-move-tab.php:12
+msgid "Delete all settings after deactivation"
+msgstr ""
+
+#: admin/class-dna-move-tab.php:13
+msgid ""
+"If this field is checked, than after deactivation all plugin data will "
+"removed from database."
+msgstr ""
+
+#: admin/class-dna-move-tab.php:16
+msgid "Export ACFCP settings to .ini file"
+msgstr ""
+
+#: admin/class-dna-move-tab.php:17
+msgid ""
+"Click and download the file with all the fields and plugin settings. You can "
+"use this file to store the plugin settings and restore them in the future."
+msgstr ""
+
+#: admin/class-dna-move-tab.php:20
+msgid "Import ACFCP settings from .ini file"
+msgstr ""
+
+#: admin/class-dna-move-tab.php:21
+msgid ""
+"Upload file with plugin settings and press submit button. All settings will "
+"be restored from this file."
+msgstr ""
+
+#: admin/class-dna-move-tab.php:56
+msgid "Download"
+msgstr ""
+
+#: admin/class-dna-msgs-tab.php:26
+msgid "Field Format"
+msgstr ""
+
+#: admin/class-dna-msgs-tab.php:27
+msgid "Error message"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:13
+msgid ""
+"The name of the field. Required field.<br /> The field can contain only "
+"letters, numbers, and underscores."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:23
+msgid "List Of Values"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:26
+msgid ""
+"The list of values available in the following field types: drop-down, "
+"checkbox, radio. This field is required for these types. <br />Enter a comma "
+"separated list of values or single value you want to appear in this drop-"
+"down box. <br />If you want to use an existing list of values of a specific "
+"ad field - just enter the name of the field. As done for the field "
+"\"user_state\". This is very handy."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:32
+msgid ""
+"This is the default value for the form fields. The user can change this "
+"value or remain unchanged.<br />If the type field contains a list of values, "
+"the default value should be in this list."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:39
+msgid ""
+"Formats and limitations will allow you to get a more ordered information "
+"from the user. <br />You can set the format for email or url, or number, or "
+"simply required etc. <br />See detailed description of formats and "
+"limitations in the Help topic \"Formats & Limitations\"."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:76
+msgid "Field description."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:80
+msgid "Registration form"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:83
+msgid "Check to display this field in the registration page."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:89
+msgid "Check to display this field in the edit profile page."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:92
+msgid "Edit profile admin form"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:95
+msgid "Check to display this field in the edit profile admin page."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:101
+msgid "Check to display this field in the author's page."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:107
+msgid ""
+"Check to display this field in the users's sidebar (Widget \"Account "
+"information\")."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:110
+msgid "Single ad sidebar"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:113
+msgid "Check to display this field in the Single ad sidebar (tab \"Poster\")."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:116
+msgid "Single ad before details"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:119
+msgid "Check to display this field in the ad single page before ad fields."
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:122
+msgid "Single ad after details"
+msgstr ""
+
+#: admin/class-dna-profile-tab.php:125
+msgid "Check to display this field in the ad single page after ad fields."
+msgstr ""
+
+#. #-#-#-#-#  advanced-custom-fields-for-ClassiPress.pot (Advanced Custom Fields for ClassiPress 2.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/dna-config.php:29
+msgid "Advanced Custom Fields for ClassiPress"
+msgstr ""
+
+#: admin/dna-config.php:43
+msgid "Add, delete, redefine and modify the fields of profiles."
+msgstr ""
+
+#: admin/dna-config.php:47
+msgid "Manage ClassiPress Ad Custom Fields"
+msgstr ""
+
+#: admin/dna-config.php:51
+msgid "Edit and Translate Validation Error messages"
+msgstr ""
+
+#: admin/dna-config.php:55
+msgid "Customize DatePicker for your needs"
+msgstr ""
+
+#: admin/dna-config.php:59
+msgid "Manage plugin options"
+msgstr ""
+
+#: admin/dna-config.php:62
+msgid "Help"
+msgstr ""
+
+#: admin/dna-config.php:63
+msgid "Help Section."
+msgstr ""
+
+#: admin/dna-config.php:75
+msgid ""
+"<h3>Don't panic!</h3><p>You are about using plugin <strong>%1$s v%2$s</"
+"strong> with <strong>ClassiPress v%3$s</strong>! <br />Versions of plugin "
+"and ClassiPress are not compatible. <br />Plugin disabled for security "
+"reasons. <br />This is all for your own good :) <br /><br />Please, install "
+"compatible version of the %1$s plugin!</p>"
+msgstr ""
+
+#: framework/acf/class-acf-profile-field.php:56
+#: includes/deprecated/deprecated.php:187
+msgid "-- Select --"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:182
+msgid "Makes the element require a valid email."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:182
+#: framework/acf/class-acf-validator.php:187
+#: framework/acf/class-acf-validator.php:193
+#: framework/acf/class-acf-validator.php:213
+msgid "Works with text inputs."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:187
+msgid "Makes the element require a valid url."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:188
+msgid "REQUIRE:"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:188
+msgid "\"http://\" | \"https://\" | \"ftp://\" in the beginning of the line."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:193
+msgid "Makes the element require a valid phone number in any style."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:194
+#: framework/acf/class-acf-validator.php:200
+#: framework/acf/class-acf-validator.php:207
+#: framework/acf/class-acf-validator.php:220
+#: framework/acf/class-acf-validator.php:227
+#: framework/acf/class-acf-validator.php:234
+#: framework/acf/class-acf-validator.php:241
+#: framework/acf/class-acf-validator.php:263
+#: framework/acf/class-acf-validator.php:343
+msgid "VALID:"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:199
+msgid ""
+"Makes the element require a valid US phone number.  Where the area code may "
+"not start with 1 and the prefix may not start with 1. <br />Allows \"-\" or "
+"\" \" as a separator and allows parens around area code. Some people may "
+"want to put a \"1\" in front of their number."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:201
+#: framework/acf/class-acf-validator.php:221
+#: framework/acf/class-acf-validator.php:228
+#: framework/acf/class-acf-validator.php:235
+#: framework/acf/class-acf-validator.php:242
+#: framework/acf/class-acf-validator.php:264
+#: framework/acf/class-acf-validator.php:344
+msgid "INVALID:"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:206
+msgid "Makes the element require a format with 2 separeted 4-gigits numbers."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:212
+msgid ""
+"Makes the element require a valid date format. You can customize absolutely "
+"any date format on the settings tab \"%s\""
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:214
+msgid ""
+"For the selected field will be added date picker. <br />And most "
+"importantly: <strong>no matter what date format you have set up - plug-in "
+"will check the user input value for this format!</strong>"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:219
+msgid ""
+"Makes the element require positive or negative decimal number. Separator can "
+"be dot or a comma."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:226
+msgid "Makes the element require digits only."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:233
+msgid "Makes the element require positive or negative non-decimal number"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:240
+msgid ""
+"Matches numbers and whitespaces. Use for i.g. misc. zip-codes, phone-"
+"numbers, and other..  where you may not completely know the format."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:247
+msgid "Makes the element require only latin letters or punctuation"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:252
+msgid "Makes the element require only latin letters, numbers, or underscores."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:257
+msgid "Makes the element require only latin letters."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:262
+msgid "Makes the element do not accept white space."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:263
+msgid "Simple_characters_set_#156416."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:264
+msgid "Simple characters set #156416."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:269
+msgid "Jast required element."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:275
+msgid "Makes the element require a given maxmimum length."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:276
+#: framework/acf/class-acf-validator.php:282
+#: framework/acf/class-acf-validator.php:300
+#: framework/acf/class-acf-validator.php:306
+#: framework/acf/class-acf-validator.php:312
+#: framework/acf/class-acf-validator.php:318
+#: framework/acf/class-acf-validator.php:330
+#: framework/acf/class-acf-validator.php:336
+#: framework/acf/class-acf-validator.php:351
+#: framework/acf/class-acf-validator.php:357
+msgid "Method accepts <span class=\"args\">1</span> positive integer argument."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:281
+msgid "Makes the element require a given minimum length."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:287
+msgid "Makes the element require a given range length."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:288
+#: framework/acf/class-acf-validator.php:294
+#: framework/acf/class-acf-validator.php:324
+#: framework/acf/class-acf-validator.php:345
+#: framework/acf/class-acf-validator.php:363
+msgid ""
+"Method accepts <span class=\"args\">2</span> comma separated positive "
+"integer arguments (minimum & maximum)."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:293
+msgid "Makes the element require a given value range."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:299
+msgid "Makes the element require a given maximum."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:305
+msgid "Makes the element require a given minimum."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:311
+msgid "Makes the element require a given maximum words."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:317
+msgid "Makes the element require a given minimum words."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:323
+msgid "Makes the element require a given range words."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:329
+msgid "Makes the element require a given maximum comma-separated collocations."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:335
+msgid "Makes the element require a given minimum comma-separated collocations."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:341
+msgid "Makes the element require a given range comma-separated collocations."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:342
+msgid ""
+"For example, you can use it for <strong>\"tags_input\"</strong> field and "
+"limit number of the tags in range 1-3"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:343
+msgid "Tag1 | Tag1, Another tag2 | Tag1, Another tag2, Yet another tag3"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:344
+msgid ""
+"Tag1, Another tag2, Yet another tag3, | Tag1, Another tag2, Yet another "
+"tag3, And another tag4"
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:350
+msgid "Makes the multi select element require given maximum number of choices."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:356
+msgid "Makes the multi select element require given minimum number of choices."
+msgstr ""
+
+#: framework/acf/class-acf-validator.php:362
+msgid "Makes the multi select element require given range number of choices."
+msgstr ""
+
+#: includes/acf-ad-formbuilders.php:175 includes/acf-ad-formbuilders.php:193
+#: includes/acf-profile-formbuilders.php:220
+#: includes/acf-profile-formbuilders.php:234
+msgid "ERROR"
+msgstr ""
+
+#: includes/acf-content.php:57
+msgid "Full Details"
+msgstr ""
+
+#: includes/deprecated/deprecated.php:70
+msgid "No ad details found."
+msgstr ""
+
+#: includes/deprecated/deprecated.php:152
+msgid "This field is required."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://marketplace.appthemes.com/plugins/advanced-custom-fields-for-"
+"classipress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Advanced Custom Fields Plugin For ClassiPress 3.2, 3.2.1 and 3.3."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Artem Frolov (dikiyforester)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://forums.appthemes.com/members/dikiyforester/"
+msgstr ""

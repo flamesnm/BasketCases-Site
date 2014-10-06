@@ -1,0 +1,44 @@
+h3.nav-tab-wrapper{
+    margin-bottom: 0;
+    border-bottom-style: none;
+}
+span.nav-tab-active{
+    border-bottom-color: #DFDFDF;
+}
+span.nav-tab {
+	text-shadow: whiteSmoke 0 1px 0;
+	background-color: #FDFDFD;
+}
+span.nav-tab:hover, span.nav-tab-active {
+	background-color: #FFF;
+    border-color: #FF4700 #CCC #DFDFDF;
+	border-top-width: 3px;
+	color: #FF4700;
+	cursor:pointer;
+}
+a:hover {
+    color: #FF4700;
+}
+
+.titletip:hover{
+    color: #FF4700; cursor:pointer;
+}
+.widefat tr {height: 48px;}
+.widefat td {vertical-align: middle; padding: 8px 8px;}
+#easyTooltip{ padding:10px; border:1px solid #ccc; background:floralwhite; width:400px; text-shadow: 0 1px 0 white; -moz-border-radius:8px; -webkit-border-radius: 8px; border-radius: 8px;}
+#dna_option_tab {display: none;}
+#dna-preloader-wrap {
+	height: 12px;
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+#dna-preloader {
+	background: url("../img/dna_loader.gif") no-repeat center;
+	height: 12px;
+	width: 100%;
+	display: block;
+}
+.alt:hover, .even:hover {
+background-color: #FFF4E7 !important;
+}

@@ -1,0 +1,52 @@
+#registerform .rowwrap label {width: 130px;padding: 4px 10px 0 0;float: left;clear: both;font-weight: bold;text-align: right;}
+#registerform ol.checkboxes, #registerform ol.radios {background:#fff;float:left;  border:1px solid #CCC;  margin-bottom:10px;  padding:7px;  width:250px; -khtml-border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; font-family: Arial,Helvetica,sans-serif;}
+#registerform span.acffields {float:left; clear:both; width:266px; margin-left:140px; margin-top:-10px; margin-bottom:10px;}
+#registerform label.invalid {float: left; clear: both; width: 100%; margin: 10px; position:absolute; text-align: left;}
+#registerform .ui-datepicker-trigger{display: inline; float: none;}
+#registerform a.selectBox-dropdown {padding-left: 7px; padding-right: 7px;}
+.selectBox-dropdown:focus, .selectBox-dropdown:focus .selectBox-arrow {
+border-color: #CCC;
+background-color: #F9F9F9;}
+
+/* responsive */
+@media screen and (max-width: 940px) {
+.acfform .rowwrap {
+  overflow: hidden;
+}
+
+#registerform label.invalid {
+	margin: -5px 5px 10px 0;
+	position:inherit;
+}
+
+#registerform .acfform .rowwrap label {
+  text-align: left;
+  width: 100%;
+}
+
+#registerform .acfform a.selectBox-dropdown {
+  min-width: 250px;
+  max-width: 320px;
+}
+
+.acfform .selectBox-dropdown {
+  margin: 0;
+  height: auto;
+}
+
+#registerform .acfform span.acffields {
+  margin-left: 0;
+  display: block;
+}
+
+#registerform .acfform a.selectBox-dropdown,
+.loginform .acfform input.text,
+.loginform .acfform textarea,
+#registerform ol.checkboxes,
+#registerform ol.radios {
+  float: left;
+  clear: both;
+}
+
+
+}

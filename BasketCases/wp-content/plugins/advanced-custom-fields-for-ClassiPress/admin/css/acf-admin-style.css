@@ -1,0 +1,85 @@
+/* General */
+.widefat thead tr {height: 55px;}
+
+/*  Ad Fields tab  */
+.col_check {margin-left:2px !important;}
+
+/*  Profile Fields tab  */
+.row_actions {width: 18px;}
+.field_name_col {width: 144px;}
+.slidwrap {clear:both; margin-bottom:-3px; border-color: #dfdfdf; background-color: #f0f0f0;}
+.slidwrap .nav-tab-wrapper {margin: 14px 20px 3px!important;}
+.slidwrap .nav-tab-active {border-bottom: none;}
+#acf_profile_field-table tbody tr {cursor: move;}
+#template_row {display:none;}
+tr.ui-sortable-helper {border: 1px dashed #F5A88A;}
+tr.ui-sortable-helper td {border: 0;}
+tr.ui-placeholder td {display:none;}
+
+
+/*  DatePicker tab  */
+.ui-datepicker-trigger {padding: 0 !important;}
+
+#acf_options_form {font-family: Verdana,Arial,Helvetica,sans-serif;}
+#acf_options_form textarea {
+	height:2em;
+	min-width: 100px;
+	width: 100%;
+}
+.format_name:hover, .format_name:active, .format_name:focus, .field_name:hover, .field_name:active, .field_name:focus{color: #FF4700; cursor:pointer;}
+.nav-tab {font-weight: normal;}
+
+/* Help Tab */
+.ui-tabs-vertical { border-color: #dfdfdf; display: table; }
+.ui-tabs-vertical .ui-tabs-nav {
+	display: table-cell;
+	padding: 2px 1px 2px 2px;
+	border: none;
+	border-right: #dfdfdf 1px solid;
+	background: none;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	border: #dfdfdf 1px solid;
+	border-right-width: 0 !important;
+	text-shadow: whiteSmoke 0 1px 0;
+	background: #FDFDFD;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active,
+.ui-tabs-vertical .ui-tabs-nav li.ui-state-focus,
+.ui-tabs-vertical .ui-tabs-nav li.ui-state-hover
+{
+	border: #dfdfdf 1px solid;
+	border-left: #FF4700 3px solid;
+	background: #FFF;
+	margin-bottom: 2px;
+	padding-bottom: 0;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; padding: 7px 14px;}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs-vertical .ui-tabs-nav li.ui-state-focus a,
+.ui-tabs-vertical .ui-tabs-nav li.ui-state-hover a
+{
+	color: #FF4700;
+	outline: none;
+	padding-left: 12px;
+}
+.ui-tabs-vertical .ui-tabs-panel {padding: 10px 10px 10px 30px; vertical-align: top; width: 100%;}
+.ui-tabs-vertical .ui-tabs-panel h2,
+.ui-tabs-vertical .ui-tabs-panel h3,
+.ui-tabs-vertical .ui-tabs-panel h4
+{color: #FF4700; text-shadow: whiteSmoke 0 1px 0; border-bottom: 1px solid #dfdfdf}
+.ui-tabs-vertical .ui-tabs-panel h3 {
+	margin-top: 2em;
+	padding-bottom: 5px;
+}
+
+.ui-tabs-vertical .ui-tabs-panel ul {
+	list-style: disc;
+	padding-left: 50px;
+}

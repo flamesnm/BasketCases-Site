@@ -1,0 +1,144 @@
+/*.loginform .rowwrap label {width: 130px;padding: 4px 10px 0 0;float: left;clear: both;font-weight: bold;text-align: right;}
+*/
+.loginform .rowwrap label {
+	color: #555555;
+	font: bold 13px/1.5em "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 13px 10px 0 0;
+	float: left;
+	clear: both;
+	text-align: left;
+	width: 130px;
+	height: 23px;
+}
+.loginform p label {
+	height: 23px;
+}
+.loginform ol.checkboxes, .loginform ol.radios {
+	background:#fff;
+	float:left;
+	border:1px solid #CCC;
+	margin-bottom:10px;
+	padding:7px;
+	width:250px;
+	font: 13px "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.loginform span.acffields,
+.loginform label.invalid {
+	float:left;
+	clear:both;
+	width:266px;
+	margin-left:140px;
+	margin-bottom:10px;
+}
+.loginform label.invalid {
+	font: bold 12px Arial;
+	color: #cc0000;
+}
+.loginform .ui-datepicker-trigger{
+	position: absolute;
+}
+.loginform select {
+	max-width: 268px;
+	min-width: 168px;
+	width: 268px;
+}
+
+@media screen and (max-width: 900px) {
+	.loginform span.acffields,
+	.loginform label.invalid {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.loginform span.acffields,
+	.loginform label.invalid {
+		margin-left: 140px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.loginform .ui-datepicker-trigger{
+		position: inherit;
+	}
+
+	.loginform label.invalid {
+		margin: -5px 5px 10px 0;
+		position:inherit;
+	}
+
+	.loginform .acfform .rowwrap label {
+	  text-align: left;
+	  width: 100%;
+	}
+
+	.loginform .acfform span.acffields {
+	  margin-left: 0;
+	  display: block;
+	}
+
+	.loginform .acfform a.selectBox-dropdown,
+	.loginform .acfform input.text,
+	.loginform .acfform textarea,
+	.loginform ol.checkboxes,
+	.loginform ol.radios {
+	  float: left;
+	  clear: both;
+	}
+
+
+}
+
+@media screen and (max-width: 420px) {
+	.loginform ol.checkboxes,
+	.loginform ol.radios,
+	.loginform span.acffields,
+	.loginform label.invalid {
+		width: 76%;
+	}
+	.loginform select{
+		max-width: 240px;
+		width: 240px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.loginform ol.checkboxes,
+	.loginform ol.radios,
+	.loginform span.acffields,
+	.loginform label.invalid {
+		width: 232px;
+	}
+	.loginform select {
+		max-width: 250px;
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.loginform ol.checkboxes,
+	.loginform ol.radios,
+	.loginform span.acffields,
+	.loginform label.invalid {
+		width: 213px;
+	}
+	.loginform select {
+		max-width: 231px;
+		width: 231px;
+	}
+}
+
+@media screen and (max-width: 240px) {
+	.loginform ol.checkboxes,
+	.loginform ol.radios,
+	.loginform span.acffields,
+	.loginform label.invalid {
+		width: 152px;
+	}
+	.loginform select {
+		max-width: 170px;
+		width: 170px;
+	}
+}
+

@@ -1,0 +1,138 @@
+.post .cpfp-span ul li h3.fave a { color: #679325; text-decoration: underline; }
+
+/* main */
+h1.single { color: #679325; }
+h1.single, span.colour { color: #679325; }
+.shadowblock h2.dotted, .shadowblock h1.textcolor, .shadowblock h2.color, .shadowblock h3.color { color: #679325; }
+div.bigright span { color: #679325; }
+div#mcwrap span { font-size: 13px; color: #679325; }
+h3 a { color: #679325; text-decoration: underline; }
+a { color: #679325; text-decoration: underline; }
+a:hover { color: #111111; }
+
+h1.single-ad, h1.single-ad a, h3.single a { color: #679325; }
+
+/* home page directory category listing */
+#directory .catcol ul li.maincat a { color: #679325 !important; }
+#directory .catcol ul li.maincat a:hover, #directory .catcol ul li.cat-item a:hover { color: #555555 !important; }
+
+
+/* header */
+.header_top { background-color: #111111; }
+.header_top_res p a { color: #9dbd6d; }
+
+/* main nav menu global styles */
+.header_menu_res ul.menu li ul li a:hover { color: #679325; }
+.header_menu { background-color: #679325; margin: 0 auto; }
+
+.btn-topsearch { background: url("../images/g_go.png") no-repeat scroll 0 0 #679325; }
+
+
+/* category menu */
+div#adv_categories .catcol ul li.maincat a { color: #679325; }
+div#adv_categories .catcol ul li.maincat a:hover { color: #679325; }
+div#adv_categories .catcol ul li.cat-item { color: #679325; }
+div#adv_categories .catcol ul li.cat-item:hover { color: #679325; }
+div#adv_categories .catcol ul li.cat-item:hover a { color: #679325; }
+div#adv_categories .catcol ul li.cat-item a:hover { color: #679325; }
+
+
+/* featured listings homepage carousel */
+.slider ul li .title a { color: #555555; }
+.slider ul li .title a:hover { color: #679325; }
+.slider ul li:hover .attachment-ad-small { border: 1px solid #dcdcdc; }
+.slider ul li { color: #679325; }
+span.price_sm { background-color: #679325; color: #ffffff; }
+span.price_sm a { background-color: #679325; color: #ffffff; }
+span.price_sm:hover { background-color: #111111; }
+
+
+/* pagination */
+.pages span { background-color: #ffffff; }
+.pages span.current { background-color: #679325; color: #ffffff; }
+.pages a { color: #555555; background: transparent url("../images/dk-noise.png") repeat scroll 0 0; }
+
+
+/* button styles */
+.orangebutton { background-color: #679325; border: 1px solid #679325; color: #ffffff !important; }
+.orangebutton:hover { background-color: #111111; border: 1px solid #111111; }
+
+.btn_orange { background-color: #ff6600 !important; border: 1px solid #ff6600 !important; color: #ffffff !important; text-decoration: none; }
+.btn_orange:hover, .btn_orange a:hover { background-color: #111111; border: 1px solid #111111 !important; }
+
+.btn_orange_dkbg { background-color: #679325; border: 1px solid #679325; color: #ffffff !important; }
+.btn_orange_dkbg:hover, .btn_orange_dkbg a:hover { background-color: #9dbd6d; border: 1px solid #9dbd6d; }
+
+.btn_link { background-color: #679325; border: 1px solid #679325 !important; color: #ffffff !important; text-decoration: none; }
+.btn_grey { background: transparent url("../images/dk-noise.png") repeat scroll 0 0; border: 1px solid #ededed !important; color: #555555 !important; text-decoration: none; }
+.btn_link:hover { background-color: #111111; border: 1px solid #111111 !important; color: #ffffff !important; text-decoration: none; }
+.btn_grey:hover {  background: transparent url("../images/dk-noise.png") repeat scroll 0 0; border: 1px solid #ededed !important; color: #555555 !important; text-decoration: none; }
+
+.header_menu_res a.btn_orange { background-color: #ff6600 !important; border: 1px solid #ff6600 !important; float: right; }
+.header_menu_res a:hover.btn_orange  { background-color: #ff6600; border: 1px solid #ff6600 !important; }
+
+.wpcf7-submit { background-color: #679325; border: 1px solid #679325; color: #ffffff; }
+.wpcf7-submit:hover { background-color: #111111; border: 1px solid #111111; color: #ffffff; }
+
+.selectBox-options li.level-1, .selectBox-options li.level-2 { color: #679325; }
+
+span.back a { color: #679325; }
+
+/* main nav menu global styles */
+.header_menu_res ul.menu li ul li a:hover { color: #679325; text-decoration: underline !important; }
+div#adv_categories .catcol ul li.maincat a { color: #679325; }
+
+
+/* category menu */
+.adv_categories ul li.active { margin: 0 -7px 0 -8px; padding: 4px 7px 4px 8px; color: #ffffff; background-color: #333333; }
+.adv_categories .catcol ul li.maincat a { margin: 0; padding: 4px 0; color: #333333; text-decoration: none; }
+
+/* tab control main */
+.tabcontrol ul.tabnavig li a.selected, .tabcontrol ul.tabnavig li a.selected:hover { color: #ffffff; background: none #679325; border: 1px solid #679325; }
+.tabcontrol div.undertab a { text-decoration: none; color: #679325; }
+
+
+/* tab control blog sidebar */
+.tabprice ul.tabnavig li a.selected { color: #ffffff; background: none #679325; border: 1px solid #679325; }
+
+
+/* sidebar refine search */
+ul.refine li input#amount, input#amountMin, input#amountMax, ul.refine li input#distance, .distance input#cp_city_zipcode { color: #679325; }
+ul.refine li input#distance { background: none; border: 0 !important; }
+
+
+#comments ol.commentlist .user-meta .name, #comments ol.commentlist .user-meta .name a { color: #679325; }
+#comments ol.commentlist .user-meta a { color: #679325; }
+
+blog post-meta { color: #aeaeae; }
+.post-meta a:hover { color: #333333; }
+
+
+
+/* price */
+p.post-price { background-color: #679325; color: #ffffff; }
+.post-block .post-right h3, .post-block .post-right h3 a { color: #555555; }
+.post-block .post-right h3 a:hover { color: #679325; }
+.post-block:hover .post-left img { border: 1px solid #bbbbbb; }
+
+
+/* footer */
+.footer_menu { background-color: #679325; }	
+.footer_menu_res ul li a { color: #ffffff; }
+.footer_main_res div.column p a { color: #679325; }		
+.footer_main_res div.column ul li a, .footer_main_res div.shadowblock_out li a { color: #679325; text-decoration: none; }	
+.footer_main_res div.column ul li a:hover, .footer_main_res div.shadowblock_out li a:hover { color: #111111; text-decoration: none; }
+.footer .right a { color: #679325; }
+.footer .right a:hover { color: #111111; }
+
+
+/* form step */
+.form_step li.withborder label { color: #679325; }
+
+/* form step button images */
+a.attachment-delete { padding: 5px 10px; position: absolute; left: 10px; top: 46px; background-color: #ededed; border: none; color: #ffffff; text-decoration: none; }
+a:hover.attachment-delete { background-color: #679325; }
+
+#app-attachment-upload-pickfiles { background-color: #679325; border: 1px solid #679325; color: #ffffff !important; }
+
+.order-gateway h2 { color: #679325 !important; }
